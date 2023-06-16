@@ -10,8 +10,8 @@ function ProjectCard(props){
                  <h5 id={props.id} class="card-title">{props.title}</h5>
                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                  <div className='link'>
-                  <a id='btn1' href="https://github.com/kshitijjj/DrumKit.github.io" target='_blank' class="btn4">Github</a>
-                  <a id='btn2' href="https://kshitijjj.github.io/DrumKit.github.io/" target='_blank' class="btn3">Project</a>
+                  <a id='btn1' href={props.github} target='_blank' class="btn4">Github</a>
+                  <a id='btn2'  href={props.live} target='_blank' class="btn3">Project</a>
                 </div>
                 </div>
              </div>
