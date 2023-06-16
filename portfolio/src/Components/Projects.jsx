@@ -23,7 +23,13 @@ function Projects(props){
                 <div className='underline'></div>
                 </div>
                 
-                <ProjectCard title="Drum Kit" />
+                <div className="project_card">
+                <ProjectCard id="project_card_text1" title="Drum Kit" />
+                <ProjectCard id="project_card_text2" title="Payment Gateway Integerated Website " />
+                <ProjectCard id="project_card_text3" title="Portfolio Website" />
+                </div>
+                
+
 
                 <div className="projectType2">
                 <p id='part1'>Editing</p>

@@ -521,7 +521,15 @@ para2-rest lines
  */
 /* #btn1:hover{
  /*  width: 100px; */
+.project_card{
+  display: flex;
+}
 
+#project_card_text2{
+  font-size: 20px;
+}
+
+.project
 
 
 #btn2{
