@@ -346,6 +346,12 @@ para2-rest lines
 
 /*Experience CSS*/
 
+.exp_card{
+  width: 550px;
+  height: 300px;
+  margin-left: 80px;
+}
+
 #time{
   margin-left: 19px;
   font-family:'Playfair Display', serif ;
