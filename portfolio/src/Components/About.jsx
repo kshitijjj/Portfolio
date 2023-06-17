@@ -11,7 +11,7 @@ function About(props){
                 A brief&nbsp; <span id='a1'>introduction</span> about myself
                 <div className="line4"></div>
             </div>
-            <div data-aos='zoom-out-down' className='ab'>
+            <div data-aos='fade-up' className='ab'>
                 <div className='inab'>
                      <img id='img_1' src="./images/pic.jpeg" alt=""  />
                      <div className="line5"></div>

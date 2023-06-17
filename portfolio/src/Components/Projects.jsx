@@ -5,11 +5,12 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import ProjectCard from './ProjectCard';
 
-function alertMsg(){
+/* function alertmsg(){
     <div class="alert alert-info" role="alert">
     App will be live soon !! 
+    console.log("hello");
     </div>
-}
+} */
 
 function Projects(props){
     return (<>
@@ -31,8 +32,8 @@ function Projects(props){
                 
                 <div className="project_card">
                 <ProjectCard id="project_card_text1" title="Drum Kit" github="https://github.com/kshitijjj/DrumKit.github.io" live="https://kshitijjj.github.io/DrumKit.github.io/" />
-                <ProjectCard id="project_card_text2" title="Payment Gateway Integerated Website " github="https://github.com/kshitijjj/Sparks_Task.git"  live="https://kshitijjj.github.io/Sparks_Task/"/>
                 <ProjectCard id="project_card_text3" title="Portfolio Website" github="https://github.com/kshitijjj/Portfolio.git"  />
+                <ProjectCard id="project_card_text2" title="Payment Gateway Integerated Website " github="https://github.com/kshitijjj/Sparks_Task.git"  live="https://kshitijjj.github.io/Sparks_Task/"/>
                 </div>
                 
 
