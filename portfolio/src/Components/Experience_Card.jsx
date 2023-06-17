@@ -7,9 +7,9 @@ function ExperienceCard (){
                 {/* <img src="./images/drum.gif" class="card-img-top" alt="..."/> */}
                 <div class="card-body_exp">
                  <h5 class="card-title">Growth Intern</h5>
-                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                 <p class="card-text" style={{paddingBottom:"15px"}}>Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                  <div className='link'>
-                  <a id='btn1' target='_blank' class="btn4">Go somewhere</a>
+                  <a id='exp_btn' target='_blank' class="exp_btnn">Go somewhere</a>
                 </div>
                 </div>
              </div>

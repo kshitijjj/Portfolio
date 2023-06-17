@@ -361,6 +361,18 @@ para2-rest lines
   margin-left: 80px;
 }
 
+#exp_btn{
+  text-decoration: none;
+  font-size: 17px;
+  font-family:'Playfair Display', serif ;
+  background-color: rgb(143, 42, 245);
+  padding: 12px;
+  border-radius: 7px;
+  color: white;
+  margin-top: 30px;
+  box-shadow:0px 3.6px 12px 0.2px rgba(76, 74, 74, 0.619);
+}
+
 .exp_card{
   width: 550px;
   height: 300px;
