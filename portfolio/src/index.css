@@ -346,6 +346,15 @@ para2-rest lines
 
 /*Experience CSS*/
 
+.exp_comp{
+  display: flex;
+}
+
+.experience_heading{
+  margin-top: 150px;
+  margin-left: 80px;
+}
+
 .exp_card{
   width: 550px;
   height: 300px;

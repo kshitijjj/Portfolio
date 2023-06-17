@@ -7,7 +7,27 @@ import ExperienceCard from './Experience_Card';
 function Experience(props){
     return(
         <>
+
+        
+        <div className="experience_heading">
+        <p id='p1' data-aos='fade-down' > My previous</p>
+        <h1 id='p3' data-aos='fade-down' > work experience<span id='p2'> includes</span></h1>
+        </div>
+        
+        <div className="exp_comp">
+
+        <div className="experience_box">
         <ExperienceCard/>
+        <ExperienceCard/>
+        <ExperienceCard/>
+        </div>
+
+        <div className="exp_img">
+            {/* <img src="" alt="" style={{width:"350px" ,height:"350px"}}/> */}
+        </div>
+       
+        </div>
+
         </>
     );
     }
@@ -18,8 +38,7 @@ export default Experience;
 
     /*   {/* div className='main3' id="experiences">
           <div className='exp'>
-          <p id='p1' data-aos='fade-down' > My previous</p>
-          <h1 id='p3' data-aos='fade-down' > work experience<span id='p2'> includes</span></h1>
+         
           <div className='cards'>
 
     
