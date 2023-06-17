@@ -350,6 +350,12 @@ para2-rest lines
   display: flex;
 }
 
+.card-body_exp{
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 50px;
+}
+
 .experience_heading{
   margin-top: 150px;
   margin-left: 80px;

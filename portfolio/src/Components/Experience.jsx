@@ -9,7 +9,7 @@ function Experience(props){
         <>
 
         
-        <div className="experience_heading">
+        <div id="experiences" className="experience_heading">
         <p id='p1' data-aos='fade-down' > My previous</p>
         <h1 id='p3' data-aos='fade-down' > work experience<span id='p2'> includes</span></h1>
         </div>
@@ -23,7 +23,7 @@ function Experience(props){
         </div>
 
         <div className="exp_img">
-            {/* <img src="" alt="" style={{width:"350px" ,height:"350px"}}/> */}
+            <img src="./images/exp_img2.svg" alt="" style={{width:"650px" ,height:"950px",marginLeft:"110px"}}/>
         </div>
        
         </div>
