@@ -649,11 +649,16 @@ para2-rest lines
  /*  background-color: #EDEAF1; */
 /*   background-blend-mode: lighten; */
   
-  background-color: #DCD0F0;
+ /*  background-color: #DCD0F0; */
   margin-top: 120px;
   padding-top: 50px;
   padding-left: 80px;
   padding-bottom: 200px;
+}
+
+.abt_card{
+  width: 900px;
+  height: 350px;
 }
 #a1{
   font-size: 36px;
