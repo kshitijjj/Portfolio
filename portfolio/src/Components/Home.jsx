@@ -93,10 +93,10 @@ function Home(props){
 
             <div className='buttons'>
             {/* <div /* onMouseEnter={handlehover} */ } 
-                <a data-aos='zoom-in'  className='box1'  style={{width:"170px", height:"45px"}} href='' target='_blank' id="resume"  >Resume</a>
+                <a data-aos='zoom-in'  className='box1'  style={{width:"170px", height:"45px"}} href='./docs/Resume.pdf' target='_blank' id="resume"  >Resume</a>
          {/*    </div> */}
      {/*        <div  > */}
-                <Link  className='box2' data-aos='zoom-in'  style={{width:"170px", height:"45px"}} id="work"></Link>
+                <Link  className='box2' data-aos='zoom-in'  style={{width:"170px", height:"45px"}} id="work">Youtube</Link>
            {/*  </div> */}
 
             </div> 
@@ -104,10 +104,10 @@ function Home(props){
             <div className='social'>
                 You can connect with me on:
                 <div className='icons'>
-                {/*    <a href="https://www.instagram.com/__.mayank.___07/">< img src="./images/4.svg" alt="" style={{marginLeft:"10px",marginRight:"10px"}}  width={"30px"} height={"40px"}  /></a> 
+                   <a href="https://www.instagram.com/__.mayank.___07/">< img src="./images/4.svg" alt="" style={{marginLeft:"10px",marginRight:"10px"}}  width={"30px"} height={"40px"}  /></a> 
                    <a href="https://www.linkedin.com/in/mayank-uppal-3591a5229"><img src="./images/3.svg" alt="" style={{marginLeft:"10px",marginRight:"10px"}} width={"30px"} height={"40px"} /></a> 
                    <a href="https://twitter.com/Uppal__MaYank?t=C4C3TRkRVvdiPkbm6N0uKA&s=09"><img src="./images/2.svg" alt=""  style={{marginLeft:"10px",marginRight:"10px"}} width={"30px"} height={"40px"}/></a> 
-                   <a href=""><img src="./images/1.svg" alt="" style={{marginLeft:"10px",marginRight:"10px"}} width={"30px"} height={"40px"} /></a> */} 
+                   <a href=""><img src="./images/1.svg" alt="" style={{marginLeft:"10px",marginRight:"10px"}} width={"30px"} height={"40px"} /></a> 
                 </div>
             </div>
         </div>
