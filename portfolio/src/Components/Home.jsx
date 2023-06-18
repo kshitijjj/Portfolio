@@ -93,7 +93,7 @@ function Home(props){
 
             <div className='buttons'>
             {/* <div /* onMouseEnter={handlehover} */ } 
-                <a data-aos='zoom-in'  className='box1'  style={{width:"170px", height:"45px"}} href='./docs/Resume.pdf' target='_blank' id="resume"  >Resume</a>
+                <a data-aos='zoom-in'  className='box1'  style={{width:"170px", height:"45px"}} href='' target='_blank' id="resume"  >Resume</a>
          {/*    </div> */}
      {/*        <div  > */}
                 <Link  className='box2' data-aos='zoom-in'  style={{width:"170px", height:"45px"}} id="work"></Link>
