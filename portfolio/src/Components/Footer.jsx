@@ -8,7 +8,6 @@ function Footer(){
                 <p id="n2">myank07official@gmail.com</p>
             </div>
             <div className="copy">
-                copyright2023
             </div>
             <div className="socialss">
                 {/* <a href="https://www.instagram.com/__.mayank.___07/"><img id='I1' src="./images/f4.svg" alt="" width={"40px"} height={"40px"} /></a>
