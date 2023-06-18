@@ -658,7 +658,13 @@ para2-rest lines
 
 .abt_card{
   width: 900px;
-  height: 350px;
+  height: 400px;
+}
+
+.about_card{
+  margin-left: 280px;
+  padding-top: 250px;
+  padding-bottom: 200px;
 }
 #a1{
   font-size: 36px;
