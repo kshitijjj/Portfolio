@@ -4,24 +4,6 @@ import "aos/dist/aos.css";
 import { useSearchParams } from 'react-router-dom';
 
 function Cards(props){
-/* /* 
-    const style={
-        marginTop:"0px",
-        
-    }
-
-    const [pop,setpop]=useState(style);
-
-    function handlemouse(){
-        setpop({
-            marginTop:"-15px"
-        })
-    }
-
-    function handlemouseL(){
-        setpop({
-            marginTop:"0px",
-        }) */
     return (
         <>
         <div id={props.id3} data-aos={props.aos}  className='card1'>

@@ -1,16 +1,9 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min';
-import AOS from "aos";
 import "aos/dist/aos.css";
 import ProjectCard from './ProjectCard';
 
-/* function alertmsg(){
-    <div class="alert alert-info" role="alert">
-    App will be live soon !! 
-    console.log("hello");
-    </div>
-} */
 
 function Projects(props){
     return (<>
