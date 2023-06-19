@@ -1,91 +1,13 @@
 import React, { useState } from 'react';
-import Text from "./Text"; 
 import { Link } from 'react-scroll';
-import AOS from "aos";
 import "aos/dist/aos.css";
 
 function Home(props){
-
-
-/*     const [box1,setBox1]=useState({
-        backgroundColor: "#7629b2",
-        border:"solid rgb(143, 42, 245"
-    });
-    const [box2,setBox2]=useState({
-        backgroundColor:"white"
-    })
-    const [line,setline]=useState({
-        color:"white"
-    })
-    const [line2,setLine2]=useState({
-        color:"black"
-    })
-
-    function handleMouse(){
-        setBox1({
-            backgroundColor:"white",
-            border:"solid rgb(143, 42, 245",
-        })
-        setline({
-            color:"black"
-        })
-    }
-
-    function handleMouseL(){
-        setBox1({
-            backgroundColor: "#7629b2",
-            border:"solid rgb(143, 42, 245)"
-        })
-        setline({
-            color:"white"
-        })
-        
-    }
-
-    function handleMouse1(){
-        setBox2({
-            backgroundColor:"#7629b2"
-        })
-        setLine2({
-            color:"white"
-        })
-    }
-
-    function handleMouseL1(){
-        setBox2({
-            backgroundColor:"white",
-        })
-        setLine2({
-            color:"black"
-        })
-    }
- */
-/* 
-    function handlehover(){
-        let box=document.getElementsByClassName(".box1");
-        let style=box.s
-    } */
-  /*   let box=document.getElementsByClassName(".box1");
-    const [box,setbox]=useState({
-        width:"150px",
-        height:"40px"
-    })
-
-    console.log(box)
-
-    function handlehover(){
-        setbox({
-            width:'200px',
-            height:"200px"
-        })
-    } */
     return (
         <>
     <div className='head' id="home">
         <div className='main'>
-        
-           {/*  <p id="text1" >Hey! I'm </p>
-            <h1 id='text2'  >MAYANK &nbsp;UPPAL</h1> */}
+    
 
             <div className="home_text">
             <h1 id="text3" >Video Editor ... </h1>
