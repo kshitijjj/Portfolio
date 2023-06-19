@@ -20,12 +20,12 @@ function Navbar(props){
   }
     return (
         <div >
-      <nav id='navvs' class="navbar navbar-expand-lg navbar-light " > 
+      <nav id='navbar_bg' class="navbar navbar-expand-lg navbar-light " > 
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
-  <div class="collapse navbar-collapse" id="navbarTogglerDemo01"  >
-    <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+  <div  class="collapse navbar-collapse" id="navbar_bg"  >
+    <ul class="navbar-nav">
       <li class="nav-item ">
         <Link id ="i1" class="nav-link" to="/" spy={true} smooth={true} offset={30} duration={730} style={{color:"black",fontSize:"20px",fontFamily:"Playfair Display"}}>Home</Link>
       </li>

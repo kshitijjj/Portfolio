@@ -233,7 +233,7 @@ li{
   
 }  
 
-#navvs{
+#navbar_bg{
   padding-top: 0px;
   padding-bottom: 12px;
 }
@@ -788,6 +788,12 @@ para2-rest lines
   .main6{
     width: 1500px;
   }
+  .home_text{
+    width: 700px;
+  }
+  #text3,#text33,#text1{
+    font-size: 45px;
+  }
 }
 
 
@@ -801,6 +807,9 @@ para2-rest lines
   .line4{
     margin-left: 105px;
   }
+  .home_text{
+    width: 900px;
+  }
 }
 
 @media screen and (max-width:1024px) and (min-width:769px){
@@ -810,9 +819,15 @@ para2-rest lines
   .about{
     width: 1350px;
   }
+  #navbar_bg{
+      width: 1400px;
+  }
+  .home_text{
+    width: 900px;
+  }
 }
 
-@media screen and (max-width:1200px){
+@media screen and (min-width:1025px) and (max-width:1200px){
   .exp{
     width: 1700px;
   }
@@ -822,5 +837,20 @@ para2-rest lines
   .line3{
     margin-left: 65px;
   }
+  #navbar_bg{
+    width: 1400px;
+}
 
+}
+
+@media screen and (min-width:1201px) and (max-width:"1400px"){
+  #navbar_bg{
+      width: 1500px;
+  }
+}
+
+@media screen and (min-width:1201px) and (max-width:"1600px"){
+  #navbar_bg{
+      width: 1400px;
+  }
 }

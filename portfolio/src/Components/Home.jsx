@@ -86,10 +86,14 @@ function Home(props){
         
            {/*  <p id="text1" >Hey! I'm </p>
             <h1 id='text2'  >MAYANK &nbsp;UPPAL</h1> */}
+
+            <div className="home_text">
             <h1 id="text3" >Video Editor ... </h1>
             <h1 id="text33" >Web Developer & Creative </h1>
             <p id='text1'>Hey everyone ! my name is mayank</p>
             <p id='text11'>welcome to our portfolio website</p>
+            </div>
+           
 
             <div className='buttons'>
             {/* <div /* onMouseEnter={handlehover} */ } 
