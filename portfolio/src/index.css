@@ -5,9 +5,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-/*   width: 200vh;
-  height: 100vw;
-  overflow: hidden; */
+
   overflow-x: hidden;
 }
 
@@ -17,13 +15,6 @@ code {
 }
 
 
-/*HOME PAGE CSS
-main=div name
-text1= first line
-text2=name headng
-text3=third line video ediing
-box1 and box2= resume attached and work
-*/
 
 .head{
   display: flex;
@@ -56,12 +47,7 @@ box1 and box2= resume attached and work
    
 }
 
-/* #work{
-  font-size: 12px;
-  padding-left: 38px;
-  color:black;
-  font-family: 'Playfair Display', serif;
-} */
+
 .main{
   
   padding-top: 35px;
@@ -94,12 +80,7 @@ box1 and box2= resume attached and work
   color: black;
   opacity: 80%;
 }
-/* #text22{
-  height: 70px;
-  font-size:60px;
-  font-family: 'Montserrat', sans-serif;
-  color: rgb(143, 42, 245);
-} */
+
 
 #text2{
   height: 70px;
@@ -121,7 +102,7 @@ box1 and box2= resume attached and work
   opacity: 80%;
   height: 60px;
   margin-bottom: 0px;
- /*  margin-bottom: 28px; */
+
 
 }
 .buttons{
@@ -165,16 +146,6 @@ box1 and box2= resume attached and work
   animation-fill-mode: backwards;
 }
 
-/* @keyframes image {
-  from{width:0px; height:0px;}
-  to {width:550px;height:550px;}
-
-  0%{
-    opacity: 0;
-  }
-  100%{
-    opacity: 1;
-  } */
   
 
 .circle{
@@ -227,7 +198,7 @@ li{
   background-color:#eeeded;
 }
 
-/*Navbar css*/
+
 #i1,#i2,#i3,#i4,#i5:hover{
   cursor: pointer;
   
@@ -243,10 +214,6 @@ nav{
   top: 0;
 }
 
-/*Skills css
-para-skills
-para2-rest lines
-*/
 
 #part1{
   margin-top: 50px;
@@ -344,7 +311,7 @@ para2-rest lines
   opacity: 70%;
 }
 
-/*Experience CSS*/
+
 
 .exp_comp{
   display: flex;
@@ -392,33 +359,11 @@ para2-rest lines
   margin-top: 175px;
   padding-top: 55px;
   padding-left: 80px;
- /*  background-image: linear-gradient(to bottom, #c295ee, #b881ed, #ad6ded, #a158eb, #9541ea); */
+ 
   padding-bottom: 200px;
   background-color: #FFF6FF;
 }
-/* #p2{
-  font-size: 32px;
-  color: black;
-  font-family: 'Playfair Display', serif;
-} */
-/* #p1{
-  height: 21px;
-  font-size: 32px;
-  color:black;
-  font-family: 'Playfair Display', serif;
-} */
 
-/* #a3{
-  text-decoration: none;
-  font-family:'Playfair Display', serif ;
-  font-size: 20px;
-  background-color: rgb(143, 42, 245);
-  padding-left: 20px;
-  padding-top: 15px;
-  padding-right: 20px;
-  padding-bottom: 15px;
-
-} */
 
 .button{
   width: 180px;
@@ -440,7 +385,7 @@ para2-rest lines
 }
 
 #a3:hover{
-  /* box-shadow: none; */
+
   opacity: 90%;
   box-shadow:0px 1.6px 8px 0.2px rgba(76, 74, 74, 0.619);
 }
@@ -549,16 +494,7 @@ para2-rest lines
   margin-left: 18px;
   margin-bottom: 15px;
 }
-/*Project Css*/
 
-
-/* #btn1{
-  margin-left: 30px;
-  box-shadow:0px 3.6px 12px 0.2px rgba(76, 74, 74, 0.619);
-}
- */
-/* #btn1:hover{
- /*  width: 100px; */
 .project_card{
   display: flex;
 }
@@ -572,7 +508,7 @@ para2-rest lines
 #btn2{
   margin-left: 80px;
   box-shadow:0px 3.6px 12px 0.2px rgba(76, 74, 74, 0.619);
-} */
+} 
 .link{
   display: flex;
   margin-top: 10px;
@@ -644,12 +580,9 @@ para2-rest lines
   color: white;
   box-shadow:0px 3.6px 12px 0.2px rgba(76, 74, 74, 0.619);
 }
-/*About Section */
+
 .main6{
- /*  background-color: #EDEAF1; */
-/*   background-blend-mode: lighten; */
-  
- /*  background-color: #DCD0F0; */
+
   margin-top: 120px;
   padding-top: 50px;
   padding-left: 80px;
@@ -681,11 +614,11 @@ para2-rest lines
   border-radius:20px ;
   margin-top: 80px;
   margin-left: 225px;
- /*  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px; */
+
   box-shadow:-14px 22px 30px -14px black;
   background-color: white;
 
-  /* background-image: linear-gradient(to bottom, #b2cbf1, #97afe7, #8591da, #7b72ca, #7850b4); */
+  
 
 }
 .line4{
@@ -713,7 +646,7 @@ para2-rest lines
   left: 50%;
   bottom: 8%;
 }
-/* Footer Css*/
+
 .main7{
   display: flex;
   background-color: black;
@@ -757,7 +690,7 @@ para2-rest lines
 
 
 
-/* //RESPONSIVENESS */
+
 @media screen and (max-width:480px ) and (min-width:320px){
   .pro2{
     margin-left: 100px;
