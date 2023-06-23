@@ -1,5 +1,4 @@
 import React from 'react';
-import Cards from "./Cards";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import ExperienceCard from './Experience_Card';
@@ -16,15 +15,18 @@ function Experience(props){
         
         <div className="exp_comp">
 
+
+        <div className="exp_img">
+            <img id='exp-img' src="./images/exp_img2.svg" alt="" />
+        </div>
+
         <div className="experience_box">
         <ExperienceCard/>
         <ExperienceCard/>
         <ExperienceCard/>
         </div>
 
-        <div className="exp_img">
-            <img src="./images/exp_img2.svg" alt="" style={{width:"650px" ,height:"950px",marginLeft:"110px"}}/>
-        </div>
+        
        
         </div>
 

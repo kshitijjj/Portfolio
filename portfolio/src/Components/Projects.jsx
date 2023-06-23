@@ -7,7 +7,7 @@ import ProjectCard from './ProjectCard';
 
 function Projects(props){
     return (<>
-<div className='pro' id="projects" >
+<div className='pro' id="projects" style={{marginLeft:"2pxō"}} >
             <div className="project"> 
             <div className="projectHeading">
             <div data-aos='fade-up' className="pro2">
@@ -18,10 +18,9 @@ function Projects(props){
                 
                 <br/>
 
-                <div className="projectType1">
+                
                 <p id='part1'>WEB DEVELOPMENT </p>
                 <div className='underline'></div>
-                </div>
                 
                 <div className="project_card">
                 <ProjectCard id="project_card_text3" title="Portfolio Website" github="https://github.com/kshitijjj/Portfolio.git"  />
@@ -30,12 +29,13 @@ function Projects(props){
                 
 
 
-                <div className="projectType2">
+        
                 <p id='part1'>Editing</p>
                 <div className='underline'></div>
-                </div>
                 
+                <div className="project_card">
                 <ProjectCard title="Drum Kit" />
+                </div>
              </div>
         </div> 
         </>
