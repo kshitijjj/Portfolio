@@ -1,5 +1,5 @@
 import React from 'react';
-
+import "aos/dist/aos.css";
 function ProjectCard(props){
     return (
       <>
@@ -7,7 +7,7 @@ function ProjectCard(props){
              
 
             <div className="cardss">
-              <div className="card">
+              <div data-aos='fade-up' className="card">
                 <div className="card-body">
                 <h5 id={props.id} class="card-title">{props.title}</h5>
                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>

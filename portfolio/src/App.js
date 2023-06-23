@@ -16,10 +16,10 @@ function App() {
     <Navbar sticky='top'/>
     <Home />
     <Projects />
-    <Skills />
+    <Skills /> 
     <Experience/>
-    <About />
-    <Footer/>
+    <About /> 
+    <Footer/> 
 
 
     </>

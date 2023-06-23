@@ -9,7 +9,7 @@ function Home(props){
 
         <div className='main'>
             <div className="home_text">
-            <h1 id="text3" >Video Editor ... </h1>
+            <h1 id="text3" >Video Editor </h1>
             <h1 id="text33" >Web Developer & Creative </h1>
             <p id='text1'>Hey everyone ! my name is mayank</p>
             <p id='text11'>welcome to our portfolio website</p>
@@ -18,16 +18,16 @@ function Home(props){
 
             <div className='buttons'>
                 <a data-aos='zoom-in'  className='box1'   href='./docs/Resume.pdf' target='_blank' id="resume"  >Resume</a>
-                <Link  className='box2' data-aos='zoom-in'  id="work"></Link>
+                <a data-aos='zoom-in'  className='box2'   href='./docs/Resume.pdf' target='_blank' id="resume"  >Resume</a>
             </div> 
             
             <div className='social'>
                 You can connect with me on:
                 <div className='icons'>
-                   <a href="https://www.instagram.com/__.mayank.___07/">< img src="./images/4.svg" alt="" style={{marginLeft:"10px",marginRight:"10px"}}  width={"30px"} height={"40px"}  /></a> 
-                   <a href="https://www.linkedin.com/in/mayank-uppal-3591a5229"><img src="./images/3.svg" alt="" style={{marginLeft:"10px",marginRight:"10px"}} width={"30px"} height={"40px"} /></a> 
-                   <a href="https://twitter.com/Uppal__MaYank?t=C4C3TRkRVvdiPkbm6N0uKA&s=09"><img src="./images/2.svg" alt=""  style={{marginLeft:"10px",marginRight:"10px"}} width={"30px"} height={"40px"}/></a> 
-                   <a href=""><img src="./images/1.svg" alt="" style={{marginLeft:"10px",marginRight:"10px"}} width={"30px"} height={"40px"} /></a> 
+                   <a  href="https://www.instagram.com/__.mayank.___07/">< img className='icon_btn' src="./images/4.svg" alt=""   /></a> 
+                   <a  href="https://www.linkedin.com/in/mayank-uppal-3591a5229"><img className='icon_btn' src="./images/3.svg" alt="" /></a> 
+                   <a  href="https://twitter.com/Uppal__MaYank?t=C4C3TRkRVvdiPkbm6N0uKA&s=09"><img className='icon_btn' src="./images/2.svg" alt="" /></a> 
+                   <a  href=""><img className='icon_btn' src="./images/1.svg" alt=""  /></a> 
                 </div>
             </div>
         </div>

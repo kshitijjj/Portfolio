@@ -23,66 +23,72 @@ code {
 
 }
 
-
-#resume{
-  text-decoration: none;
-  color:white;
-  font-family: 'Playfair Display', serif;
-  font-size: 20px;
-  width: 100px;
-  padding-left: 55px;
-}
-
-#work{
-  text-decoration: none;
-  color: black;
-  font-family: 'Playfair Display', serif;
-  font-size: 20px;
-  width: 100px;
-  padding-left: 55px;
-}
-
-.box1:hover,.box2:hover {
+/* .box1:hover,.box2:hover {
   cursor: pointer;
    margin-top: 67.7px;
   box-shadow:0px 1.6px 5px 0.1px rgba(76, 74, 74, 0.619);
    
+} */
+
+.buttons{
+  margin-top: 4em;
+}
+
+.box1{
+  text-decoration: none;
+  font-family:'Playfair Display', serif ;
+  background-color: rgb(143, 42, 245);
+  box-shadow:0px 3.6px 12px 0.2px rgba(76, 74, 74, 0.619);
+  color: white;
+  border-radius: 1em;
+  font-size: 1em;
+  padding: 1.5em;
+}
+.box2{
+  text-decoration: none;
+  font-family:'Playfair Display', serif ;
+  background-color: white;
+  border: 1px solid rgb(143, 42, 245) ;
+  box-shadow:0px 3.6px 12px 0.2px rgba(76, 74, 74, 0.619);
+  color: black;
+  border-radius: 1em;
+  padding: 1.5em;
+  margin-left: 3.2em;
 }
 
 
 .main{
-  
-  padding-top: 35px;
-  margin-top:80px;
-  margin-left: 80px;
+  margin-top:6.5em;
+  margin-left: 4em;
 }
 #text1,#text2,#text3{
   margin: 0;
   padding: 0;
 }
 #text1,#text3{
-  font-size: 27px;
+  
   color: rgba(0, 0, 0, 0.515);;
 }
 #text1{
-  font-size: 30px;
-  width: 550px;
-  padding-left: 5px;
-  height: 33px;
+  font-size: 1.4em;
+  width: 30vw;
+  padding-left: 0.2em;
+  height: 3.8vh;
   font-family: 'Playfair Display', serif;
   color: black;
-  opacity: 80%;
 }
 #text11{
-  font-size: 27px;
-  padding-left: 5px;
-  width: 550px;
-  height: 25px;
+  font-size: 1.4em;
+  width: 30vw;
+  padding-left: 0.2em;
+  height: 5vh;
   font-family: 'Playfair Display', serif;
   color: black;
-  opacity: 80%;
 }
-
+#text{
+  font-size: 1.4em;
+  height: 5vh;
+}
 
 #text2{
   height: 70px;
@@ -92,56 +98,33 @@ code {
 
 #text3{
   font-family: 'Montserrat', sans-serif;
-  font-size: 50px;
-  height: 55px;
+  font-size: 3em;
+  text-shadow: 0px 3px 4px grey;
   color: black;
   opacity: 80%;
 }
 #text33{
+  text-shadow: 0px 3px 4px grey;
   font-family: 'Montserrat', sans-serif;
-  font-size: 50px;
+  font-size: 3em;
+  width: 50vw;
   color: black;
   opacity: 80%;
-  height: 60px;
-  margin-bottom: 0px;
-
+  margin-bottom: 0em;
 
 }
 .buttons{
   display: flex;
 }
 
-.box2{
-  padding: 0;
-  width: 170px;
-  height: 40px;
-  border-radius: 20px;
-  border: solid rgb(143, 42, 245);
-  box-shadow:0px 3.6px 12px 0.2px rgba(76, 74, 74, 0.619);
- 
-  background-color: white;
-  margin-top: 70px;
-  margin-left:60px;
-  padding-top: 3px;
-  padding-bottom: 2px;
-}
-.box1{
-  background-color: rgb(143, 42, 245);
-  box-shadow:0px 3.6px 12px 0.2px rgba(76, 74, 74, 0.619);
-  width: 150px;
-  height: 40px;
-  margin-top: 70px;
-  border-radius: 20px;
-  padding-top: 5px;
 
-}
 
 
 #img1{
-  width: 550px;
-  height: 550px;
-  margin-left:115px ;
-  margin-top: 60px;
+  width: 40vw;
+  height:80vh;
+  margin-left:4em ;
+  margin-top: 2em;
   animation-name:image ;
   animation: image ease 2s;
   animation-iteration-count: 1;
@@ -150,7 +133,7 @@ code {
 
   
 
-.circle{
+/* .circle{
   position: absolute;
   z-index: -1;
   left: 80%;
@@ -164,9 +147,9 @@ code {
   animation: example ease 5s;
   animation-iteration-count:1 ;
   animation-fill-mode: forwards;
-}
+} */
 
-@keyframes example {
+/* @keyframes example {
   from{left:85%;}
   to {left:73%;}
 
@@ -176,17 +159,22 @@ code {
   100%{
     opacity: 1;
   }
-}
+} */
 .social{
-  width: 400px;
-  margin-top:80px ;
+  width:30vw;
+  margin-top:4em ;
   font-family: 'Montserrat', sans-serif;
-  font-size: 25px;
+  font-size: 1.7em;
   color: black;
   opacity: 85%;
 }
 .icons{
-  margin-left:85px
+  margin-left:3.1em;
+}
+
+.icon_btn{
+  width: 2vw;
+  margin-left: 0.8em;
 }
 li{
   font-family: 'Playfair Display', serif;
@@ -526,19 +514,14 @@ nav{
 #btn1{
   padding: 1em;
   margin: 1em;
-  margin-right: 2em;
   text-decoration: none;
   font-size: 0.5em;
   font-family:'Playfair Display', serif ;
   background-color: rgb(143, 42, 245);
-  /* padding: 12px; */
-  
-  display: inline-block;
   border-radius: 7px;
   color: white;
-/*   margin-left: 47px; */
   box-shadow:0px 3.6px 12px 0.2px rgba(76, 74, 74, 0.619);
-  /* margin-bottom: 30px; */
+
 }
 #btn1:hover,#btn2:hover{
   opacity: 91%;
@@ -710,5 +693,53 @@ nav{
   #p3{
     font-size: 1.7em;
   }
-  
+
+
+  #text3,#text33{
+    font-size: 1.3em;
+  }
+  #text33{
+    width: 60vw;
+  }
+  .main{
+    margin-left:8%;
+    margin-top: 20%;
+  }
+  #text1,#text11{
+    font-size: 0.8em;
+  }
+  #text1{
+    width: 65vw;
+    margin-bottom: 0.1%;
+    height: 2.4vh;
+
+  }
+  #text11{
+    width: 65vw;
+  }
+  .buttons{
+    margin-top: 2em;
+  }
+  .box1,.box2{
+    width: 20vw;
+    height: 8vh;
+    font-size: 0.8em;
+  }
+  #img1{
+    width: 45vw;
+    height: 50vh;
+    margin: 0;
+  }
+  .social{
+    margin-top: 35%;
+    font-size: 1.2em;
+    width: 150%;
+    margin-left: 6%;
+  }
+  .icons{
+    margin-left: 20%;
+  }
+  .icon_btn{
+    width: 5vw;
+  }
 }
