@@ -75,13 +75,7 @@ margin: 2em;
   margin-top:6.5em;
   margin-left: 4em;
 }
-#text1,#text2,#text3{
-  margin: 0;
-  padding: 0;
-}
-#text1,#text3{
-  color: rgba(0, 0, 0, 0.515);;
-}
+
 #text1{
   font-size: 1.4em;
   width: 30vw;
@@ -102,7 +96,6 @@ margin: 2em;
   font-size: 1.4em;
   height: 5vh;
 }
-
 #text2{
   height: 70px;
   font-size:25px;
@@ -124,15 +117,7 @@ margin: 2em;
   color: black;
   opacity: 80%;
   margin-bottom: 0em;
-
 }
-.buttons{
-  display: flex;
-}
-
-
-
-
 #img1{
   width: 40vw;
   height:80vh;
@@ -143,12 +128,10 @@ margin: 2em;
   animation-iteration-count: 1;
   animation-fill-mode: backwards;
 }
-
 .image_disp{
     display: grid;
     grid-template-columns: auto auto auto auto;
 }
-
 .social{
   width:30vw;
   margin-top:4em ;
@@ -160,7 +143,6 @@ margin: 2em;
 .icons{
   margin-left:3.1em;
 }
-
 .icon_btn{
   width: 2vw;
   margin-left: 0.8em;
@@ -176,24 +158,14 @@ li{
   padding-left: 500px;
   background-color:#eeeded;
 }
-
-
 #i1,#i2,#i3,#i4,#i5:hover{
   cursor: pointer;
-  
 }  
 
 #navbar_bg{
   padding-top: 0px;
   padding-bottom: 12px;
 }
-
-nav{
-  position: sticky;
-  top: 0;
-}
-
-
 #part1{
   margin-top: 2em;
   font-size: 0.74em;
@@ -201,15 +173,12 @@ nav{
   width: 40vw;
   margin-left: 19em;
 }
-
 .underline{
   width: 60vw;
   height: 0.1em;
   background-color: black;
   margin-left :9.1em ;
-
 }
-
 .main2{
   margin-top: 80px;
   margin-left: 80px;
@@ -232,89 +201,26 @@ nav{
   background-color:black;
   margin-top: 20px;
 }
-#img2{
-  width: 200px;
-  height: 170px;
-  border-radius:50% ;
-  margin-top:83px ;
-  margin-left: 40px;
-  opacity: 70%;
-}
-#img3{
-  width: 200px;
-  height: 200px;
-  border-radius:50% ;
-  margin-top:80px ;
-  margin-left: 70px;
-  opacity: 70%;
-}
-#img4{
-  width: 300px;
-  height: 75px;
-  border-radius:20% ;
-  margin-top:120px ;
-  margin-left: 90px;
-  opacity: 70%;
-}
-#img5{
-  width: 200px;
-  height: 200px;
-  border-radius:50% ;
-  margin-top:80px ;
-  margin-left: 90px;
-  opacity: 70%;
-}
-#img6{
-  width: 200px;
-  height: 150px;
-  border-radius:50% ;
-  margin-top:80px ;
-  margin-left: 200px;
-  opacity: 70%;
-}
-#img7{
-  width: 150px;
-  height: 150px;
-  border-radius:20% ;
-  margin-top:80px ;
-  margin-left: 130px;
-  opacity: 70%;
-}
-#img8{
-  width: 300px;
-  height: 150px;
-  border-radius:20% ;
-  margin-top:80px ;
-  margin-left: 110px;
-  opacity: 70%;
-}
-
 #exp-img{
   width: 38vw;
   margin-top: 13em;
   margin-left: 2em;
   margin-right: 3em;
-
 }
-
 .exp_comp{
   display: grid;
   grid-template-columns: auto auto;
 }
-
 .card-text_exp{
   font-size: 1.3em;
 }
-
 .card-body_exp{
   padding: 2em;
 }
-
 .experience_heading{
   margin-top: 13em;
   margin-left: 5em;
 }
-
 .experience_box{
   display: grid;
 }
@@ -329,23 +235,19 @@ nav{
   display: inline-block;
   box-shadow:0px 3.6px 12px 0.2px rgba(76, 74, 74, 0.619);
 }
-
 .exp_card{
   display: flex;
   width: 80%;
   margin-left:5em;
   margin-bottom: 5em;
 }
-
 .exp{
   margin-top: 175px;
   padding-top: 55px;
   padding-left: 80px;
- 
-  padding-bottom: 200px;
+   padding-bottom: 200px;
   background-color: #FFF6FF;
 }
-
 #p2,#p1{
   font-size: 30px;
   font-family: 'Playfair Display', serif ;
@@ -353,66 +255,12 @@ nav{
 #p2{
   padding-left: 3px;
 }
-
 #p1{
   margin-bottom: 0em;
 }
 #p3{
   font-family: 'Montserrat', sans-serif;
   font-size: 2.5em;
-}
-
-#w1{
-  height: 10px;
-  font-size: 25px;
-  font-family: 'Montserrat', sans-serif;
-  padding-top: 22px;
-  padding-left: 15px;
-}
-#c1{
-  font-size: 20px;
-  padding-left: 15px;padding-right: 15px;
-  padding-top: 25px;
-  height:49px;
-  font-family: 'Playfair Display', serif;
-  padding-left: 18px;
-  padding-bottom: 1px;
-  margin-bottom: 0px;
-}
-#w2{
-  height: 10px;
-  font-size: 20px;
-  font-family: 'Montserrat', sans-serif;
-  padding-top: 22px;
-  padding-left: 15px;
-}
-#c2{
-  font-size: 20px;
-  padding-left: 15px;padding-right: 15px;
-  padding-top: 25px;
-  height:49px;
-  font-family: 'Playfair Display', serif;
-  padding-left: 18px;
-  padding-bottom: 1px;
-  margin-bottom: 0px;
-
-}
-#w3{
-  height: 10px;
-  font-size: 25px;
-  font-family: 'Montserrat', sans-serif;
-  padding-top: 22px;
-  padding-left: 15px;
-}
-#c3{
-  font-size: 20px;
-  padding-left: 15px;padding-right: 15px;
-  padding-top: 25px;
-  height:49px;
-  font-family: 'Playfair Display', serif;
-  padding-left: 18px;
-  padding-bottom: 1px;
-  margin-bottom: 0px;
 }
 .line1{
   width: 250px;
@@ -430,18 +278,14 @@ nav{
 #project_card_text3{
   font-size: 0.8em;
 }
-
 #project_card_text2{
   font-size: 0.8em;
 }
-
-
 .btn3{
   height: 50px;
   box-shadow:0px 3.6px 12px 0.2px rgba(76, 74, 74, 0.619);
   margin-left: 80px;
 }
-
 .pro{
    margin-top: 200px;
 }
@@ -467,8 +311,6 @@ nav{
   margin-left: 14em;
   width: 50vw;
 }
-
-
 .card{
   display: grid;
   width: 85%;
@@ -476,12 +318,10 @@ nav{
   margin-left: 3em;
   box-shadow: -11px 12px 26px -19px black, 14px -11px 19px -19px black;
 }
-
 .link{
   margin: 0.3em;
   margin-left: 1em;
 }
-
 .card-text{
   font-size: 0.72em;
   font-family: 'Playfair Display', serif;
@@ -490,7 +330,6 @@ nav{
   font-size: 1.6em;
   font-family: 'Montserrat', sans-serif;
 }
-
 #btn1{
   padding: 1em;
   margin: 1em;
@@ -514,33 +353,20 @@ nav{
   font-size: 17px;
   font-family:'Playfair Display', serif ;
   background-color: rgb(143, 42, 245);
- /*  padding: 12px; */
   border-radius: 7px;
   color: white;
   box-shadow:0px 3.6px 12px 0.2px rgba(76, 74, 74, 0.619);
 }
-
-.main6{
-
-  margin-top: 120px;
-  padding-top: 50px;
-  padding-left: 80px;
-  padding-bottom: 200px;
-}
-
 .abt_card{
   display: flex;
   width:70%;
   height: 50%;
-
   box-shadow: -11px 12px 26px -19px black, 14px -11px 19px -19px black;
   margin-left: 7%;
 }
-
 .card-body_abt{
 padding:6em;
 }
-
 .about_card{
   margin-bottom: 12%;
   margin-top: 10%;
@@ -549,24 +375,6 @@ padding:6em;
 #a1{
   font-size: 36px;
   font-family: 'Montserrat', sans-serif;
-}
-.about{
-  text-align: center;
-  font-size: 28px;
-  font-family: 'Playfair Display', serif;
-}
-.ab{
-  width: 900px;
-  height: 400px;
-  border-radius:20px ;
-  margin-top: 80px;
-  margin-left: 225px;
-
-  box-shadow:-14px 22px 30px -14px black;
-  background-color: white;
-
-  
-
 }
 .line4{
   width: 1100px;
@@ -600,7 +408,6 @@ padding:6em;
   background-color: black;
   padding: 1.5em;
 }
-
 #n1{
   font-size: 1.4em;
   font-family: 'Playfair Display', serif;
@@ -625,22 +432,17 @@ padding:6em;
   margin-top: 10%;
   margin-left: 20%;
 }
-
 #I1,#I2,#I3,#I4{
 padding: 0.55em;
 margin: 0.2em;
 }
-
 .socialss{
 margin-top: 8%;
 margin-left: 25%;
 } 
-
 .card-body{
   padding: 2em;
 }
-
-
 @media screen and (min-width:320px) and (max-width:420px){
   .project_card{
     grid-template-columns: auto;
