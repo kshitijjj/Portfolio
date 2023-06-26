@@ -446,6 +446,7 @@ margin-left: 25%;
 }
 @media screen and (min-width:320px) and (max-width:420px){
   .project_card{
+    margin-left: 8%;
     grid-template-columns: auto;
   }
   #part1{
@@ -462,7 +463,7 @@ margin-left: 25%;
     width: 80vw;
   }
   .card{
-    width:80%;
+    width:90vw;
     margin-left:7%;
   }
   .underline{
