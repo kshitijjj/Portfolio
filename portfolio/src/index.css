@@ -120,14 +120,8 @@ margin: 2em;
 
 }
 #img1{
-  width: 40vw;
-  height:80vh;
-  margin-left:4em ;
-  margin-top: 2em;
-  animation-name:image ;
-  animation: image ease 2s;
-  animation-iteration-count: 1;
-  animation-fill-mode: backwards;
+  width: 90%;
+  margin-left:2em;
 }
 .image_disp{
     display: grid;
@@ -470,8 +464,6 @@ margin-left: 25%;
     margin-left: 30%;
     width: 70vw;
   }
-
-
   .exp_comp{
     grid-template-columns:auto;
   }
@@ -486,8 +478,6 @@ margin-left: 25%;
   #p3{
     font-size: 1.7em;
   }
-
-
   #text3,#text33{
     font-size: 1.3em;
   }
@@ -505,7 +495,6 @@ margin-left: 25%;
     width: 65vw;
     margin-bottom: 0.1%;
     height: 2.4vh;
-
   }
   #text11{
     width: 65vw;
@@ -520,8 +509,8 @@ margin-left: 25%;
   }
   #img1{
     width: 45vw;
-    height: 50vh;
-    margin: 0;
+    margin-left: 0%;
+
   }
   .social{
     margin-top: 35%;
@@ -535,7 +524,6 @@ margin-left: 25%;
   .icon_btn{
     width: 5vw;
   }
-
   .abt_card{
     width: 90%;
     margin-left: 1%;
@@ -546,7 +534,6 @@ margin-left: 25%;
   .about_card{
     margin-left: 7%;
   }
-
   .main7{
     padding: 1%;
     grid-template-columns: auto;
