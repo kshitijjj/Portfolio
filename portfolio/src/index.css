@@ -7,22 +7,16 @@ body {
   -moz-osx-font-smoothing: grayscale;
   overflow-x: hidden;
   width: 100%;
-
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
-
-
-
 .head{
   display: grid;
   grid-template-columns: auto auto;
-
 }
-
 .image{
   display: grid;
   grid-template-columns: auto auto auto auto;
@@ -50,14 +44,6 @@ margin: 2em;
   font-size: 1.8rem;
   font-family:'Playfair Display', serif ;
 }
-
-/* .box1:hover,.box2:hover {
-  cursor: pointer;
-   margin-top: 67.7px;
-  box-shadow:0px 1.6px 5px 0.1px rgba(76, 74, 74, 0.619);
-   
-} */
-
 .buttons{
   margin-top: 4em;
 }
@@ -94,7 +80,6 @@ margin: 2em;
   padding: 0;
 }
 #text1,#text3{
-  
   color: rgba(0, 0, 0, 0.515);;
 }
 #text1{
@@ -164,35 +149,6 @@ margin: 2em;
     grid-template-columns: auto auto auto auto;
 }
 
-  
-
-/* .circle{
-  position: absolute;
-  z-index: -1;
-  left: 80%;
-  margin-top: 70px;
-  width:700px;
-  height: 550px;
-  border-radius:50% ;
-  background-color: #948f98;
-  animation-name:example ;
-  animation-duration: 3s;
-  animation: example ease 5s;
-  animation-iteration-count:1 ;
-  animation-fill-mode: forwards;
-} */
-
-/* @keyframes example {
-  from{left:85%;}
-  to {left:73%;}
-
-  0%{
-    opacity: 0;
-  }
-  100%{
-    opacity: 1;
-  }
-} */
 .social{
   width:30vw;
   margin-top:4em ;
@@ -486,15 +442,6 @@ nav{
   margin-left: 80px;
 }
 
-/* #btn2{
-  height: 25.5px;
- 
-  box-shadow:0px 3.6px 12px 0.2px rgba(76, 74, 74, 0.619); */
-
-/* .link{
-  display: flex;
-  margin-top: 10px;
-} */
 .pro{
    margin-top: 200px;
 }
