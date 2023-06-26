@@ -9,10 +9,20 @@ function Skills(props) {
             AOS.init({duration:1500});
         },[]);
     return (
-        <div className='main2' id="skills" style={props.theme}>
-            <div className='para' data-aos='zoom-in'>
-                Skills&nbsp;<span id='para2'>on which i have worked from past few months</span>
+        <div className='image'>
+            <div className='image_2' data-aos='zoom-in'>
+                <p id='image_text'>Skills&nbsp;<span id='image_text_2'></span></p>
+                <div className="image_3">
+                <Images id="img_s1" src=""/>
+                <Images id="img_s1"  src=""/>
+                <Images id="img_s1"  src=""/>
+                <Images id="img_s1"  src=""/>
+                <Images id="img_s1"  src=""/>
+                <Images id="img_s1"  src=""/>
+                <Images id="img_s1"  src=""/>
                 </div>
+                </div>
+
                 </div>
     );
 }

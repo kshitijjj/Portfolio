@@ -23,6 +23,34 @@ code {
 
 }
 
+.image{
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  margin-top: 12%;
+  margin-left: 6%;
+}
+.image_2{
+  padding: 2em;
+}
+.image_3{
+  padding: 1em;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+}
+#img_s1{
+width: 12vw;
+opacity: 65%;
+margin: 2em;
+}
+#image_text{
+  font-size: 2.5em;
+  font-family: 'Montserrat', sans-serif;
+}
+#image_text_2{
+  font-size: 1.8rem;
+  font-family:'Playfair Display', serif ;
+}
+
 /* .box1:hover,.box2:hover {
   cursor: pointer;
    margin-top: 67.7px;
@@ -129,6 +157,11 @@ code {
   animation: image ease 2s;
   animation-iteration-count: 1;
   animation-fill-mode: backwards;
+}
+
+.image_disp{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
 }
 
   
@@ -549,14 +582,22 @@ nav{
 }
 
 .abt_card{
-  width: 900px;
-  height: 400px;
+  display: flex;
+  width:70%;
+  height: 50%;
+
+  box-shadow: -11px 12px 26px -19px black, 14px -11px 19px -19px black;
+  margin-left: 7%;
+}
+
+.card-body_abt{
+padding:6em;
 }
 
 .about_card{
-  margin-left: 280px;
-  padding-top: 250px;
-  padding-bottom: 200px;
+  margin-bottom: 12%;
+  margin-top: 10%;
+  margin-left: 14%;
 }
 #a1{
   font-size: 36px;
@@ -607,44 +648,45 @@ nav{
 }
 
 .main7{
-  display: flex;
+  display: grid;
+  grid-template-columns: auto auto auto;
   background-color: black;
-  width: 1700px;
-  height: 150px;
+  padding: 1.5em;
 }
+
 #n1{
-  font-size: 25px;
+  font-size: 1.4em;
   font-family: 'Playfair Display', serif;
   color:white;
-  margin-bottom: 0px;
+  height: 3.5vh;
 }
 #n2{
-  font-size: 18px;
+  font-size: 1em;
   font-family: 'Playfair Display', serif;
   color: white;
   opacity: 70%;
 }
 .name{
-  padding: 20px;
-  padding-left: 50px;
-  padding-top: 40px;
+  padding: 2em;
+  width: 40%;
 }
 .copy{
   color: white;
-  font-size: 18px;
+  font-size: 1.2em;
   font-family: 'Playfair Display', serif;
   opacity: 65%;
-  padding-left: 360px;
-  padding-top: 60px;
+  margin-top: 10%;
+  margin-left: 20%;
 }
 
 #I1,#I2,#I3,#I4{
-  padding-right:20px
+padding: 0.55em;
+margin: 0.2em;
 }
 
 .socialss{
-  padding-left: 450px;
-  padding-top:65px ;
+margin-top: 8%;
+margin-left: 25%;
 } 
 
 .card-body{
@@ -741,5 +783,45 @@ nav{
   }
   .icon_btn{
     width: 5vw;
+  }
+
+  .abt_card{
+    width: 90%;
+    margin-left: 1%;
+  }
+  .card-body_abt{
+    padding:2.5em;
+  }
+  .about_card{
+    margin-left: 7%;
+  }
+
+  .main7{
+    padding: 1%;
+    grid-template-columns: auto;
+  }
+  .name{
+    padding-left:5%;
+    padding-bottom: 1.5%;
+  }
+  #n1{
+    width:40vw;
+    height: 1vh;
+    font-size: 0.8em
+  }
+  #n2{
+    font-size: 0.8em;
+  }
+  .copy{
+    font-size: 1em;
+    margin-top: 0.3%;
+    margin-left: 6%;
+  }
+  .socialss{
+    margin-left: 3%;
+  }
+  #I1,#I2,#I3,#I4{
+    padding: 0.6em;
+    margin: 0.1em;
   }
 }
