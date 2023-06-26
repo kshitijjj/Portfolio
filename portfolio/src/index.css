@@ -117,6 +117,7 @@ margin: 2em;
   color: black;
   opacity: 80%;
   margin-bottom: 0em;
+
 }
 #img1{
   width: 40vw;
@@ -167,7 +168,7 @@ li{
   padding-bottom: 12px;
 }
 #part1{
-  margin-top: 2em;
+  margin-top: 6.5em;
   font-size: 0.74em;
   text-align: center;
   width: 40vw;
@@ -287,7 +288,7 @@ li{
   margin-left: 80px;
 }
 .pro{
-   margin-top: 30%;
+   margin-top: 200px;
 }
 .project{
   width: 60vw;
@@ -313,9 +314,9 @@ li{
 }
 .card{
   display: grid;
-  width: 85%;
+  width: 90%;
   margin-top: 2em;
-  margin-left: 3em;
+  margin-left: 3.6em;
   box-shadow: -11px 12px 26px -19px black, 14px -11px 19px -19px black;
 }
 .link{
@@ -461,7 +462,7 @@ margin-left: 25%;
     width: 80vw;
   }
   .card{
-    width:40vw ;
+    width:80%;
     margin-left:7%;
   }
   .underline{
