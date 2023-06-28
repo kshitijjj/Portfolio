@@ -23,15 +23,12 @@ function Projects(props){
                 <div className='underline'></div>
                 
                 <div className="project_card">
-                <ProjectCard id="project_card_text3" title="Project" github="https://github.com/kshitijjj/Portfolio.git"  />
-                <ProjectCard id="project_card_text2" title=" Portfolio Website " github="https://github.com/kshitijjj/Sparks_Task.git"  live="https://kshitijjj.github.io/Sparks_Task/"/>
-                <ProjectCard id="project_card_text2" title=" Tic-Tac-Toe Game " github="https://github.com/kshitijjj/Sparks_Task.git"  live="https://kshitijjj.github.io/Sparks_Task/"/>
-                <ProjectCard id="project_card_text2" title="Project" github="https://github.com/kshitijjj/Sparks_Task.git"  live="https://kshitijjj.github.io/Sparks_Task/"/>
+                <ProjectCard id="project_card_text3" title="Project" github=""  />
+                <ProjectCard id="project_card_text2" title=" Portfolio Website " github=""  live=""/>
+                <ProjectCard id="project_card_text2" title=" Tic-Tac-Toe Game " github=""  live=""/>
+                <ProjectCard id="project_card_text2" title="Project" github=""  live=""/>
                 </div>
                 
-
-
-        
                 <p id='part1'>Video Editing</p>
                 <div className='underline'></div>
                 
