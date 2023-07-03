@@ -186,7 +186,14 @@ li{
   padding-bottom: 12px;
 }
 #part1{
-  margin-top: 6.5em;
+  margin-top: 2em;
+  font-size: 0.74em;
+  text-align: center;
+  width: 40vw;
+  margin-left: 19em;
+}
+#part2{
+  margin-top: 3.5em;
   font-size: 0.74em;
   text-align: center;
   width: 40vw;

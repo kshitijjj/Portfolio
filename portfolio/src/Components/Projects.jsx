@@ -32,7 +32,7 @@ function Projects(props){
                 <ProjectCard id="project_card_text2" title="Payment Gateway Integerated Website" desc="This is a payment gateway integerated webiste which i have made in my first year of college" github="https://github.com/kshitijjj/Sparks_Task.git"  live="kshitijjj.github.io/Sparks_Task/"/>
                 </div>
                 
-                <p id='part1'>Video Editing</p>
+                <p id='part2'>Video Editing</p>
                 <div className='underline'></div>
                 
                 <div className="project_card">
