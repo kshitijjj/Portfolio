@@ -21,9 +21,18 @@ function Experience(props){
         </div>
 
         <div className="experience_box">
-        <ExperienceCard role="Growth Intern" time="(Dec 2022 - Jan 2023)" work="Padhakku-Peek A Book Pvt Ltd"/>
-        <ExperienceCard/>
-        <ExperienceCard/>
+        <ExperienceCard role="Growth Intern" time="(Dec 2022 - Jan 2023)" work="Padhakku-Peek A Book Pvt Ltd"
+        desc1="Contributed in researching various databases of college curriculum and primary market research"
+        desc2="Assisted in developing a strategy to create brand awareness"
+        desc3="Helped in network building via efficient use of LinkedIn"
+        
+        />
+        <ExperienceCard
+        role="Web Development Intern" time="(April 2022-May 2022)" work="The Sparks Foundation"
+        desc1="Built a website in which payment gateway is integerated."
+        desc2="Languages Used : HTML,Css"
+        desc3="Css Framework Used : Bootstrap"
+        />
         </div>
 
         

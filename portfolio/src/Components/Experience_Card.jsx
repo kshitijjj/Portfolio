@@ -8,7 +8,12 @@ function ExperienceCard (props){
                  <h5 class="card-title">{props.role}</h5>
                  <p id='time'>{props.time}</p>
                  <p id='work'>{props.work}</p>
-                 <p class="card-text_exp" style={{paddingBottom:"15px"}}>{props.desc}</p>
+                 <ul className='card-text_exp'>
+                    <li id="li">{props.desc1}</li>
+                    <li id="li">{props.desc2}</li>
+                    <li id="li">{props.desc3}</li>
+                 </ul>
+                 {/* <p class="card-text_exp" style={{paddingBottom:"15px"}}>{props.desc}</p> */}
                  <div className='link'>
                   <a id='exp_btn' target='_blank' class="exp_btnn">Go somewhere</a>
                 </div>

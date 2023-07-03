@@ -13,6 +13,10 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+#li{
+  color: black;
+  font-size: 1em;
+}
 .head{
   display: grid;
   grid-template-columns: auto auto;
@@ -47,7 +51,19 @@ margin: 2em;
 .buttons{
   margin-top:4em;
 }
+#time{
+  margin-bottom: 0em;
+  font-family:'Playfair Display', serif ;
+}
+ul{
+  font-size: 1.1em;
+  font-family:'Playfair Display', serif ;
+  color: black;
+}
 
+#work{
+  font-family:'Playfair Display', serif ;
+}
 .box1{
   text-decoration: none;
   font-family:'Playfair Display', serif ;
@@ -228,6 +244,8 @@ li{
   display: grid;
 }
 #exp_btn{
+  margin-top: 0.5em;
+  margin-left: 12em;
   text-decoration: none;
   font-size: 1.1em;
   font-family:'Playfair Display', serif ;
