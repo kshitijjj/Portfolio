@@ -21,7 +21,7 @@ function Experience(props){
         </div>
 
         <div className="experience_box">
-        <ExperienceCard/>
+        <ExperienceCard role="Growth Intern" time="(Dec 2022 - Jan 2023)" work="Padhakku-Peek A Book Pvt Ltd"/>
         <ExperienceCard/>
         <ExperienceCard/>
         </div>

@@ -10,11 +10,11 @@ function ProjectCard(props){
               <div data-aos='fade-up' className="card">
                 <div className="card-body">
                 <h5 id={props.id} class="card-title">{props.title}</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <p class="card-text">{props.desc}</p>
 
                 <div className="link">
                 <a id='btn1' href={props.github} target='_blank' class="btn4">Github</a>
-                <a id='btn1' href={props.github} target='_blank' class="btn4">Project</a>
+                <a id='btn1' href={props.live} target='_blank' class="btn4">Project</a>
                 </div>
                 
                 </div>

@@ -4,6 +4,9 @@ import 'bootstrap/dist/js/bootstrap.bundle.min';
 import "aos/dist/aos.css";
 import ProjectCard from './ProjectCard';
 
+function onclick(){
+    alert("Coming soon!");
+}
 
 function Projects(props){
     return (<>
@@ -23,17 +26,17 @@ function Projects(props){
                 <div className='underline'></div>
                 
                 <div className="project_card">
-                <ProjectCard id="project_card_text3" title="Project" github=""  />
-                <ProjectCard id="project_card_text2" title=" Portfolio Website " github=""  live=""/>
-                <ProjectCard id="project_card_text2" title=" Tic-Tac-Toe Game " github=""  live=""/>
-                <ProjectCard id="project_card_text2" title="Project" github=""  live=""/>
+                <ProjectCard id="project_card_text3"  title="Locale" desc="Locale is your one stop destinationt to exploring and experiencing The City Beautiful-Chandigarh🌱" github="https://github.com/kshitijjj/LOCALE.git"   />
+                <ProjectCard id="project_card_text2" title=" Portfolio" desc="Hey Everyone👋!This is my portfolio website which i have built using react🧑‍💻." github="https://github.com/kshitijjj/Portfolio.git"  live="portfolio-kshitijjj.vercel.app"/>
+                <ProjectCard id="project_card_text2" title=" Tic-Tac-Toe Game " desc="This Tic-Tac-Toe Game is made using  react and various functions and react hooks ✅" github="https://github.com/kshitijjj/Tic_Tac_Toe_Game.git"  live="https://tic-tac-toe-game-kshitijjj.vercel.app/"/>
+                <ProjectCard id="project_card_text2" title="Payment Gateway Integerated Website" desc="This is a payment gateway integerated webiste which i have made in my first year of college" github="https://github.com/kshitijjj/Sparks_Task.git"  live="kshitijjj.github.io/Sparks_Task/"/>
                 </div>
                 
                 <p id='part1'>Video Editing</p>
                 <div className='underline'></div>
                 
                 <div className="project_card">
-                <ProjectCard title="" />
+                <ProjectCard desc="All my video editing projects will be shown here" />
                 </div>
              </div>
         </div> 
