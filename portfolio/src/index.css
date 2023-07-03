@@ -206,27 +206,10 @@ li{
   background-color: black;
   margin-left :9.1em ;
 }
-.main2{
-  margin-top: 80px;
-  margin-left: 80px;
-  padding-top: 50px;
-}
-.para{ 
-  font-family: 'Montserrat', sans-serif;
-  font-size: 40px;
-  width:800px;
-  animation: animation1;
-}
 #para2{
   font-size: 30px;
   color: black;
   font-family: 'Playfair Display', serif;
-}
-#line{
-  height: 1px;
-  width:1200px;
-  background-color:black;
-  margin-top: 20px;
 }
 #exp-img{
   width: 38vw;
@@ -291,19 +274,10 @@ li{
   font-family: 'Montserrat', sans-serif;
   font-size: 2.5em;
 }
-.line1{
-  width: 250px;
-  height: 2px;
-  background-color:grey;
-  margin-left: 18px;
-  margin-bottom: 15px;
-}
-
 .project_card{
   display: grid;
   grid-template-columns: auto auto auto;
 }
-
 #project_card_text3{
   font-size: 0.8em;
 }
@@ -312,11 +286,6 @@ li{
 }
 #abt_txt{
   font-size: 1.7em;
-}
-.btn3{
-  height: 50px;
-  box-shadow:0px 3.6px 12px 0.2px rgba(76, 74, 74, 0.619);
-  margin-left: 80px;
 }
 .pro{
    margin-top: 200px;
