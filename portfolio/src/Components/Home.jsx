@@ -17,11 +17,12 @@ function Home(props){
            
 
             <div className='buttons'>
-                <a data-aos='zoom-in'  className='box1'   href='' target='_blank' id="resume"  >Resume</a>
+                <a data-aos='zoom-in'  className='box1'   href='./docs/Resume.pdf' target='_blank' id="resume"  >Resume</a>
                 <a data-aos='zoom-in'  className='box2'   href='' target='_blank' id="resume"  >Resume</a>
             </div> 
             
             <div className='social'>
+
                 <div className='icons'>
                    <a  href="">< img className='icon_btn' src="" alt=""   /></a> 
                    <a  href="https://www.linkedin.com/in/mayank-uppal-3591a5229"><img className='icon_btn' src="" alt="" /></a> 

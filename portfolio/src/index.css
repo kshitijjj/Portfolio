@@ -143,6 +143,7 @@ ul{
   margin-bottom: 0em;
 
 }
+
 #img1{
   width: 90%;
   margin-left:2em;
@@ -309,6 +310,9 @@ li{
 #project_card_text2{
   font-size: 0.8em;
 }
+#abt_txt{
+  font-size: 1.7em;
+}
 .btn3{
   height: 50px;
   box-shadow:0px 3.6px 12px 0.2px rgba(76, 74, 74, 0.619);
@@ -429,6 +433,11 @@ padding:6em;
   left: 50%;
   bottom: 8%;
 }
+.about_card_text{
+  display: grid;
+  grid-template-columns: auto
+}
+
 
 .main7{
   display: grid;

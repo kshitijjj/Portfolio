@@ -7,8 +7,8 @@ function About(props){
 
     return (
         <>
-        
-        <AboutCard/>
+        <AboutCard desc="Hey Everyone !My name is Mayank Uppal ,I am a third year Undergraduate student at Punjab Engineering College, Chandigarh 
+        "/>
         </>
       
     );
