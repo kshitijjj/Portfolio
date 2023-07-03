@@ -485,7 +485,7 @@ margin-left: 25%;
     margin-left: 8%;
     grid-template-columns: auto;
   }
-  #part1{
+  #part1,#part2{
     margin-left: 40%;
     margin-bottom: 0px;
   }
@@ -516,6 +516,14 @@ margin-left: 25%;
     width: 80vw;
     height: 50vh;
     margin-top: 2%;
+  }
+  .card-text_exp{
+    padding-left: 0;
+  }#li{
+    width: 100%;
+  }
+  #exp_btn{
+    margin-left: 20%;
   }
   #p3{
     font-size: 1.7em;
