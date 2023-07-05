@@ -1,28 +1,15 @@
+import { Button } from 'bootstrap';
 import React, { useState } from 'react';
 import { Link } from 'react-scroll';
 
 
+
 function Navbar(props){
-
-
-  const [text,settext]=useState("Dark Mode");
-
-  function handleClick(){
-    
-    if(text=="Light Mode"){
-      settext("Dark Mode");
-    }
-    else if(text=="Dark Mode"){
-      settext("Light Mode");
-    }
-    
-
-  }
     return (
         <div >
       <nav id='navbar_bg' class="navbar navbar-expand-lg navbar-light " > 
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
+  <button  class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon" ></span>
   </button>
   <div  class="collapse navbar-collapse" id="navbar_bg"  >
     <ul class="navbar-nav">

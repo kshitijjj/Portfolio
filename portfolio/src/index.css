@@ -220,6 +220,7 @@ li{
 .exp_comp{
   display: grid;
   grid-template-columns: auto auto;
+  
 }
 .card-text_exp{
   font-size: 1.3em;
