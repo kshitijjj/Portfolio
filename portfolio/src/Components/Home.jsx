@@ -26,7 +26,6 @@ function Home(props){
             </div> 
             
             <div className='social'>
-                You can connect with me on:
                 <div className='icons'>
                    <a  href="">< img className='icon_btn' src="" alt=""   /></a> 
                    <a  href="https://www.linkedin.com/in/mayank-uppal-3591a5229"><img className='icon_btn' src="" alt="" /></a> 
