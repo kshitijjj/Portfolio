@@ -6,7 +6,21 @@ import { Link } from 'react-scroll';
 
 function Navbar(props){
     return (
-        <div >
+      <>
+
+      <div className="navbar_main">
+        <div className="navbar_main1">
+          <Link id="n_1" to="/" spy={true} smooth={true} offset={30} duration={730} >Home</Link>
+          <Link id="n_1" to="projects"  spy={true} smooth={true} offset={30} duration={730}  >Projects</Link>
+          <Link id="n_1" to="skills" spy={true} smooth={true} offset={30} duration={730}  >Skills</Link>
+          <Link id="n_1" to="experiences"  spy={true} smooth={true} offset={30} duration={730} >Experience</Link>
+          <Link id="n_1" to="about"  spy={true} smooth={true} offset={30} duration={730} >About</Link>
+        </div>
+      </div>
+
+    
+      </>
+      /* <div >
       <nav id='navbar_bg' class="navbar navbar-expand-lg navbar-light " > 
   <button  class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon" ></span>
@@ -31,7 +45,7 @@ function Navbar(props){
     </ul>
   </div>
 </nav>
-        </div>
+        </div> */
     );
 }
 

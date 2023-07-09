@@ -7,14 +7,14 @@ function ProjectCard(props){
              
 
             <div className="cardss">
-              <div data-aos='fade-up' className="card">
+              <div data-aos='fade-up' className={props.class}>
                 <div className="card-body">
                 <h5 id={props.id} class="card-title">{props.title}</h5>
                 <p class="card-text">{props.desc}</p>
 
                 <div className="link">
-                <a id='btn1' href={props.github} target='_blank' class="btn4">Github</a>
-                <a id='btn1' href={props.live} target='_blank' class="btn4">Project</a>
+                <a id={props.id1} href={props.github} target='_blank' class="btn4">Github</a>
+                <a id='btn_2' href={props.live} target='_blank' class="btn4">Project</a>
                 </div>
                 
                 </div>

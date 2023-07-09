@@ -8,6 +8,30 @@ body {
   overflow-x: hidden;
   width: 100%;
 }
+.pro{
+  margin-top: 10%;
+  margin-left: 4.5%;
+}
+.navbar_main{
+  padding-top: 0.5%;
+  width: 61.3%;
+  background-color: #E0F0F1;
+  padding-left: 3.5%;
+}
+.navbar_main2{
+  width: 38.26vw;
+  height: 4.8vh;
+  background-color: #FFDE59;
+}
+#n_1{
+  
+  font-family: 'Belanosima', sans-serif;
+  font-size: 1.2em;
+  margin: 1.2em;
+}
+a:hover{
+  cursor: pointer;
+}
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
@@ -21,7 +45,7 @@ code {
   display: grid;
   grid-template-columns: auto auto;
 }
-.image{
+.image_1{
   background-color: #FFDE59;
   z-index: -1;
 }
@@ -104,7 +128,7 @@ ul{
 
 
 .main{
-  padding-top:6.5em;
+  padding-top:4.5em;
   padding-left: 4em;
   background-color: #E0F0F1;
 }
@@ -175,11 +199,12 @@ ul{
 }
 .social{
   width:30vw;
-  margin-top:4em ;
-  font-family: 'Montserrat', sans-serif;
-  font-size: 1.7em;
+  margin-top:3em ;
+  font-family: 'Belanosima', sans-serif;
+  font-size: 2.1em;
   color: black;
   opacity: 85%;
+  font-weight: bold;
 }
 .icons{
   margin-left:3.1em;
@@ -209,23 +234,25 @@ li{
 }
 #part1{
   margin-top: 2em;
-  font-size: 0.74em;
+  font-family: 'League Spartan', sans-serif;
+  font-size: 1em;
   text-align: center;
   width: 40vw;
-  margin-left: 19em;
+  margin-left: 13em;
 }
 #part2{
+  font-family: 'League Spartan', sans-serif;
   margin-top: 3.5em;
-  font-size: 0.74em;
+  font-size: 1.3em;
   text-align: center;
   width: 40vw;
-  margin-left: 19em;
+  margin-left: 10.2em;
 }
 .underline{
   width: 60vw;
   height: 0.1em;
   background-color: black;
-  margin-left :9.1em ;
+  margin-left :7.6em ;
 }
 #para2{
   font-size: 30px;
@@ -309,9 +336,7 @@ li{
 #abt_txt{
   font-size: 1.7em;
 }
-.pro{
-   margin-top: 200px;
-}
+
 .project{
   width: 60vw;
   font-family: 'Montserrat', sans-serif;
@@ -320,7 +345,7 @@ li{
 #pro1{
   height: 21px;
   font-size: 0.9em;
-  font-family: 'Playfair Display', serif;
+  font-family: 'Belanosima', sans-serif;
 }
 .line3{
   width: 70vw;
@@ -331,15 +356,21 @@ li{
   opacity: 12%;
 }
 .pro2{
-  margin-left: 14em;
+  font-family: 'League Spartan', sans-serif;
+  text-align: center;
+  margin-left: 10em;
   width: 50vw;
 }
-.card{
+.card,.card2{
   display: grid;
   width: 90%;
   margin-top: 2em;
   margin-left: 3.6em;
   box-shadow: -11px 12px 26px -19px black, 14px -11px 19px -19px black;
+}
+.card2{
+  width: 40%;
+  padding: 0.8em;
 }
 .link{
   margin: 0.3em;
@@ -353,17 +384,23 @@ li{
   font-size: 1.6em;
   font-family: 'Montserrat', sans-serif;
 }
-#btn1{
+#btn1,#btn_2,#btn_1{
   padding: 1em;
   margin: 1em;
   text-decoration: none;
   font-size: 0.5em;
-  font-family:'Playfair Display', serif ;
-  background-color: rgb(143, 42, 245);
+  font-family: 'Belanosima', sans-serif;
+  background-color:#0CC0DF;
   border-radius: 7px;
   color: white;
   box-shadow:0px 3.6px 12px 0.2px rgba(76, 74, 74, 0.619);
 
+}
+#btn_1{
+  background-color: #FFDE59
+}
+#btn_2{
+  background-color: #000000;
 }
 #btn1:hover,#btn2:hover{
   opacity: 91%;

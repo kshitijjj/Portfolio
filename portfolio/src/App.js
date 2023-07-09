@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from "react";
 import Home from "./Components/Home";
-import Navbar from "./Components/Navbar";
 import Skills from "./Components/Skills";
 import Experience from "./Components/Experience";
 import Projects from "./Components/Projects";
@@ -13,7 +12,7 @@ function App() {
  
   return (
     <> 
-   {/*  Navbar sticky='top'/>< */}
+    
     <Home />
     <Projects />
     <Skills /> 
