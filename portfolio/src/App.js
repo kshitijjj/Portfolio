@@ -13,7 +13,7 @@ function App() {
  
   return (
     <> 
-    <Navbar sticky='top'/>
+   {/*  Navbar sticky='top'/>< */}
     <Home />
     <Projects />
     <Skills /> 
