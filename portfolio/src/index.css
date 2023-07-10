@@ -12,10 +12,21 @@ body {
   margin-top: 10%;
   margin-left: 4.5%;
 }
-
+.progress-bar{
+  width: 55%;
+}
+#skills_card_text{
+  margin-bottom: 0;
+  margin-left: 3%;
+  font-size: 1.2em;
+  font-family: 'Belanosima', sans-serif;
+}
 .progress{
   margin: 1.5em;
-  margin-top:2.2em;
+  margin-top:0em;
+}
+.skills_card_main{
+  margin-top: 5%;
 }
 .skills_main{
   margin-left: 5%;
@@ -28,10 +39,6 @@ body {
 }
 
 
-.progress-bar{
-  width: 85%;
-  
-}
 .navbar_main{
   padding-top: 0.5%;
   width: 61.3%;
