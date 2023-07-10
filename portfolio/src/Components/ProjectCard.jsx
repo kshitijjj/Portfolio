@@ -4,7 +4,7 @@ function ProjectCard(props){
     return (
       <>
 
-<div class="card" style={{width: "18rem"}}>
+<div data-aos="fade-up" class="card" style={{width: "18rem"}}>
   <img class={props.className} src={props.src} alt="Card image cap"/>
   <div class="card-body">
     <h5 class="card-title">{props.title}</h5>
