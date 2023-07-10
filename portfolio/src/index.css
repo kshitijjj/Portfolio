@@ -12,6 +12,26 @@ body {
   margin-top: 10%;
   margin-left: 4.5%;
 }
+
+.progress{
+  margin: 1.5em;
+  margin-top:2.2em;
+}
+.skills_main{
+  margin-left: 5%;
+  display: grid;
+  grid-template-columns: auto auto;
+}
+.skills_progress,.skills_progress_1{
+  display: flex;
+  flex-direction: column;
+}
+
+
+.progress-bar{
+  width: 85%;
+  
+}
 .navbar_main{
   padding-top: 0.5%;
   width: 61.3%;
@@ -63,13 +83,12 @@ opacity: 65%;
 margin: 2em;
 }
 #image_text{
+  margin-top: 20%;
+  text-align: center;
   font-size: 2.5em;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'League Spartan', sans-serif;
 }
-#image_text_2{
-  font-size: 1.8rem;
-  font-family:'Playfair Display', serif ;
-}
+
 .buttons{
   margin-top:7.5%;
 }

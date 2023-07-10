@@ -2,6 +2,7 @@ import React, { useEffect } from 'react';
 import Images from './Images';
 import AOS from "aos";
 import "aos/dist/aos.css";
+import SkillsCard from './Skills_Card';
 
 
 function Skills(props) {
@@ -9,21 +10,28 @@ function Skills(props) {
             AOS.init({duration:1500});
         },[]);
     return (
-        <div className='image' id="skills">
+        <>
             <div className='image_2' data-aos='zoom-in'>
                 <p id='image_text'>Skills&nbsp;<span id='image_text_2'></span></p>
-                <div className="image_3">
-                <Images id="img_s1" src=""/>
-                <Images id="img_s1"  src=""/>
-                <Images id="img_s1"  src=""/>
-                <Images id="img_s1"  src=""/>
-                <Images id="img_s1"  src=""/>
-                <Images id="img_s1"  src=""/>
-                <Images id="img_s1"  src=""/>
-                </div>
-                </div>
+            </div>
 
-                </div>
+            <div className="skills_main">
+
+            <div className="skills_progress">
+            <SkillsCard skills_text="85%"/>
+            <SkillsCard skills_text="85%"/>
+            <SkillsCard skills_text="85%"/>
+            <SkillsCard skills_text="85%"/>
+            </div>
+
+            <div className="skills_progress_1">
+            <SkillsCard skills_text="85%"/>
+            <SkillsCard skills_text="85%"/>
+            <SkillsCard/>
+            </div>
+            
+            </div>
+        </>
     );
 }
 
