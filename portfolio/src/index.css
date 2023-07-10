@@ -374,14 +374,19 @@ li{
 }
 .link{
   margin: 0.3em;
-  margin-left: 1em;
+  margin-left: 0.5em;
 }
 .card-text{
   font-size: 0.72em;
   font-family: 'Belanosima', sans-serif;
+  opacity: 85%;
+}
+.card-img-top{
+  padding: 0.2em;
 }
 .card-title{
-  font-size: 1.6em;
+  margin-top: 5%;
+  font-size: 1.2em;
   font-family: 'League Spartan', sans-serif;
 }
 #btn1,#btn_2,#btn_1{

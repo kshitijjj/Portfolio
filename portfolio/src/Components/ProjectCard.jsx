@@ -4,9 +4,21 @@ function ProjectCard(props){
     return (
       <>
 
-             
+<div class="card" style={{width: "18rem"}}>
+  <img class="card-img-top" src={props.src} alt="Card image cap"/>
+  <div class="card-body">
+    <h5 class="card-title">{props.title}</h5>
+    <p class="card-text">{props.desc}</p>
 
-            <div className="cardss">
+    <div className="link">
+  <a id={props.id1} href={props.github} target='_blank' class="btn4">Github</a>
+  <a id='btn_2' href={props.live} target='_blank' class="btn4">Project</a>
+  </div>
+  </div>
+  
+</div>
+
+            {/* <div className="cardss">
               <div data-aos='fade-up' className={props.class}>
                 <div className="card-body">
                 <h5 id={props.id} class="card-title">{props.title}</h5>
@@ -19,7 +31,7 @@ function ProjectCard(props){
                 
                 </div>
               </div>
-            </div>
+            </div> */}
 
        </>
     );
