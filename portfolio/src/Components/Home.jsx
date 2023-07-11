@@ -9,14 +9,12 @@ function Home(props){
     {/* <Navbar/> */}
     <div className='head' id="home">
         <div className='main'>
-        
             <div className="home_text">
             <p id='text1'>Hey ! I am a</p>
             <h1 id="text3" >Video Editor </h1>
             <h1 id="text33" >Web Developer & Creative </h1>
             <p id='text11'>I am mayank uppal and welcome to </p>
             <p id='text12'>our portfolio website</p>
-
             </div>
            
 
@@ -41,7 +39,6 @@ function Home(props){
          <div className='image_1'>
             <div id="img_box">
             <img data-aos='fade-left'  id='img1' src="./images/img1.svg" alt=""  />
-
             </div>
         </div>  
     </div>

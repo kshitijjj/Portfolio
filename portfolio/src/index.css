@@ -72,10 +72,11 @@ code {
   font-family: 'Belanosima', sans-serif;
 }
 .head{
-  display: grid;
-  grid-template-columns: auto auto;
+  display: flex;
+
 }
 .image_1{
+  width: 40vw;
   background-color: #FFDE59;
   z-index: -1;
 }
@@ -166,6 +167,7 @@ ul{
 .main{
   padding-top:4.5em;
   padding-left: 4em;
+  padding-right: 6%;
   background-color: #E0F0F1;
 }
 
