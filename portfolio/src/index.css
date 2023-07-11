@@ -377,6 +377,9 @@ li{
   margin-bottom: 0%;
 }
 
+.pro{
+  margin-top:25%;
+}
 .project_card{
   display: grid;
   grid-template-columns: auto auto auto;
@@ -584,11 +587,11 @@ margin-left: 25%;
   .main{
     padding-left: 5%;
     padding-top:3.2em;
-    height: 75vh;
+    height: 65vh;
   }
   #img_box{
     width: 50vw;
-    height: 75vh;
+    height: 65vh;
   }
 
   .project_card{
@@ -596,24 +599,24 @@ margin-left: 25%;
     grid-template-columns: auto;
   }
   #part1,#part2{
-    margin-left: 40%;
+    margin-left: 35%;
     margin-bottom: 0px;
   }
   .pro2{
-    margin-left: 10%;
+    margin-left: 6%;
     width: 90vw;
     font-size:24px ;
   }
   .line3{
-    margin-left: 10%;
-    width: 80vw;
+    margin-left: 8%;
+    width: 85vw;
   }
   .card{
     width:90vw;
-    margin-left:0.4%;
+    margin-left:2%;
   }
   .underline{
-    margin-left: 30%;
+    margin-left: 20%;
     width: 70vw;
   }
   .exp_comp{
@@ -627,6 +630,10 @@ margin-left: 25%;
     width: 80vw;
     height: 40vh;
     margin-top: 2%;
+  }
+
+  #experiences{
+    margin-top: 35%;
   }
   #exp_btn{
     margin-left: 14%;
@@ -682,7 +689,15 @@ margin-left: 25%;
     top: -14%;
     right:-8%;
   }
-
+  #image_text{
+    font-size: 1.7em;
+    margin-left: 1%;
+    margin-top: 30%;
+  }
+  .skills_main{
+    grid-template-columns: auto;
+    justify-content: center;
+  }
   .social{
     margin-top: 20%;
     font-size: 1em;
