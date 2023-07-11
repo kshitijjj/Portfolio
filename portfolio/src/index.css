@@ -167,7 +167,7 @@ ul{
 .main{
   padding-top:4.5em;
   padding-left: 4em;
-  padding-right: 6%;
+  width: 63vw;
   background-color: #E0F0F1;
 }
 
@@ -582,7 +582,7 @@ margin-left: 25%;
 }
 @media screen and (min-width:320px) and (max-width:420px){
   .main{
-    padding-left: 11%;
+    padding-left: 8%;
     padding-top:4em;
     height: 75vh;
   }
