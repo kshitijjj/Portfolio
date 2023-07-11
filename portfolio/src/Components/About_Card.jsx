@@ -1,4 +1,5 @@
 import React from 'react';
+import "aos/dist/aos.css";
 
 function  AboutCard(props){
     return (
@@ -7,7 +8,7 @@ function  AboutCard(props){
 
             <p id="about_heading">ABOUT</p>
 
-            <div className="about_main1">
+            <div data-aos="zoom-in" className="about_main1">
                 <img src="./images/pic.jpeg" alt="" id="about_img" />
                 <div className="about_text">
                     <p id="about_text1">MAYANK UPPAL</p>

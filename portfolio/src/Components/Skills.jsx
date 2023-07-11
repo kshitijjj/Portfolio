@@ -15,7 +15,7 @@ function Skills(props) {
     return (
         <>
             <div className='image_2' data-aos='zoom-in'>
-                <p id='image_text'>Skills&nbsp;<span id='image_text_2'></span></p>
+                <p id='image_text'>SKILLS&nbsp;<span id='image_text_2'></span></p>
             </div>
 
             <div className="skills_main">
