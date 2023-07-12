@@ -11,8 +11,8 @@ function Contact(){
             <div className="contact_main1">
                
 
-                <div className="form">
-                    <div className="contact_form">
+                <div data-aos='fade-up' className="form">
+                    <div  className="contact_form">
                         <input type="text" name="" placeholder='name' id="input_text" />
                         <input type="email" name="" placeholder='email' id="input_email" />
                         <textarea name="" id="textarea" placeholder='Your message' cols="30" rows="10"/>
@@ -20,7 +20,7 @@ function Contact(){
                     </div>
                 </div>
 
-                <img src="./images/img_3.svg" alt="" id="contact_img" />
+                <img data-aos='fade-up' src="./images/img_3.svg" alt="" id="contact_img" />
             </div>
         </div>
     );
