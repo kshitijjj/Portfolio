@@ -32,6 +32,9 @@ function Projects(props){
                 <ProjectCard class="card"  src='./images/img_(b).png' id1='btn1' id="project_card_text2" title=" Tic-Tac-Toe Game " desc="This Tic-Tac-Toe Game is made using  react and various functions and react hooks ✅" github="https://github.com/kshitijjj/Tic_Tac_Toe_Game.git"  live="https://tic-tac-toe-game-kshitijjj.vercel.app/"/>
 
                 <ProjectCard class="card" className="project_image1" src='./images/img_(a).png'  id1='btn1'  title="Project" desc="This is a payment gateway integerated webiste which i have made in my first year of college" github="https://github.com/kshitijjj/Sparks_Task.git"  live="https://kshitijjj.github.io/Sparks_Task/"/>
+                
+               
+
                 </div>
                 
                 <p id='part2'>Video Editing</p>
